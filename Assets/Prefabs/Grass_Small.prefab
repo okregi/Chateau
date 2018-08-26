@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4242983058583374}
   - component: {fileID: 95837441565810476}
   m_Layer: 0
-  m_Name: Small_Grass_Anim
+  m_Name: Grass_Small
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

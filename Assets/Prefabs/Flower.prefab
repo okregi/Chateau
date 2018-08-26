@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23072077652563528}
   - component: {fileID: 95589730440074142}
   m_Layer: 0
-  m_Name: Flower_Anim
+  m_Name: Flower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4414722684707426}
   - component: {fileID: 95333807905916640}
   m_Layer: 0
-  m_Name: Medium_Grass_Anim
+  m_Name: Grass_Medium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

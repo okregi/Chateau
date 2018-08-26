@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4610703678438834}
   - component: {fileID: 95889871762071982}
   m_Layer: 0
-  m_Name: Big_Grass_Anim
+  m_Name: Grass_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
