@@ -455,7 +455,7 @@ public class TestMove : MonoBehaviour
             changeRotateDir = true;
         }
         //Leaving Wall
-        else if (direction != Vector3.zero && detectFloor == true)
+        else if (direction != Vector3.zero && detectFloor == true && !downDetect)
         {
             onWall = false;
             canMove = false;
@@ -470,7 +470,7 @@ public class TestMove : MonoBehaviour
 
         }
         //Mounting wall
-        else if (direction != Vector3.zero && raycastDetection.InShadow == true)
+        else if (direction != Vector3.zero && raycastDetection.InShadow == true && !downDetect)
         {
             fallOff = false;
             canMove = false;
@@ -503,21 +503,6 @@ public class TestMove : MonoBehaviour
             rotate = true;
             direction = Vector3.zero;
         }
-        else if (Input.GetButtonDown("Fire1") && direction != Vector3.zero && raycastDetection.InShadow == true)
-        {
-            fallOff = false;
-            canMove = false;
-            onWall = true;
-            playerRotation.enabled = false;
-            rotTimer = 0.0f;
-            oldRot = transform.rotation;
-
-            RotateDirection();
-
-            rotate = true;
-            direction = Vector3.zero;
-        }
-
 
         if (rotate == true)
         {
