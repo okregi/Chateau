@@ -455,7 +455,7 @@ public class TestMove : MonoBehaviour
             changeRotateDir = true;
         }
         //Leaving Wall
-        else if (direction != Vector3.zero && detectFloor == true && !downDetect)
+        else if (direction != Vector3.zero && detectFloor == true && !downDetect && onWall)
         {
             onWall = false;
             canMove = false;
@@ -470,7 +470,7 @@ public class TestMove : MonoBehaviour
 
         }
         //Mounting wall
-        else if (direction != Vector3.zero && raycastDetection.InShadow == true && !downDetect)
+        else if (direction != Vector3.zero && raycastDetection.InShadow == true && !downDetect && !onWall)
         {
             fallOff = false;
             canMove = false;
