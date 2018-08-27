@@ -1,15 +1,14 @@
 fileFormatVersion: 2
-guid: ef207fedd40d1344a953d10cad97e839
-timeCreated: 1535329255
+guid: 60df44d7cb17d744fa3aeb14105f18cf
+timeCreated: 1535333609
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Default_Material
-    2100002: lambert82
-    2100004: No Name
+    2100000: lambert88
+    2100002: lambert1
     2300000: //RootNode
     3300000: //RootNode
     4300000: tunnel

@@ -1,18 +1,17 @@
 fileFormatVersion: 2
-guid: 684a2c4dba8d8094882d0d1d6846f533
-timeCreated: 1535329255
+guid: 0192bf970cf3d134cade60aa3b779aaa
+timeCreated: 1535333887
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Default_Material
-    2100002: lambert82
-    2100004: No Name
+    2100000: lambert1
+    2100002: lambert88
     2300000: //RootNode
     3300000: //RootNode
-    4300000: straight_tunnel
+    4300000: tunnel_straight
     9500000: //RootNode
   externalObjects: {}
   materials:
